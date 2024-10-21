@@ -46,11 +46,20 @@ background-size: cover;
     background-color: #3160E0;
     height: 90px;
 }
-  
+ 
+p{
+  font-size: 1.3rem;
+}
+
 a{
     text-decoration: none;
     color: white;
 }
+
+a:hover{
+  text-decoration: underline;
+}
+
 
 .title{
     font-size: 2.2rem;
@@ -80,6 +89,7 @@ span{
     border-radius: 25px;
     background-color: white;
     margin: 25px;
+    
 
 }
 
@@ -155,6 +165,16 @@ main img{
   width: 100%;
 }
 
+.celeste{
+  display: inline-block;
+  background-color: #8EA2E0;
+  padding: 15px;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  margin: 20px;
+
+}
 main{
   width: 100%;
   margin: 0 auto;
@@ -167,31 +187,37 @@ main{
   background-image: url(../img/stars.svg);
   background-size: cover;
 }
-.black{
-  background-color: black;
-  
+
+
+
+
+.endpage{
+  background-color: #23272A;
+  color: #8EA2E0;
+  font-weight: bold;
 }
 
-.container-fourth{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.social{
+  width: 280px;
 }
 
-.fourth{
-  width: 900px;
-  min-height: 700px;
-  background-color: darkgreen;
-  margin: 60px
+.menu{
+  width: calc(100%-280px);
 }
 
-.container-five{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height: 600px;
+.azzurro{
+  color:8EA2E0;
+  font-size: 1.5rem;
+}
 
+ul{
+  list-style: none;
+  color: white;
+}
+
+li{
+  padding: 10px;
+}
 
 /* ********** /MAIN *********** */
 
@@ -201,26 +227,12 @@ footer{
   display: flex;
   justify-content: center;
   align-items: end;
-  background-color:brown;
+  background-color:#23272A;
   width: 100%;
   margin: 0 auto;
 
 }
 
-.foot{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 900px;
-  min-height: 70px;
-  background-color: aqua;
-  margin-top: 30px
-}
-
-footer div{
-  background-color:aquamarine
-
-}
 
 footer .row{
   width: 900px;
@@ -230,15 +242,6 @@ footer .row{
   align-items: center;
 }
 
-footer div p{
-  background-color: orange;
-  padding: 10px;
-}
-
-footer div button{
-  background-color: orange;
-  padding: 10px;
-}
 
 
 
