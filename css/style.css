@@ -78,15 +78,15 @@ a:hover{
     text-align: center;
     padding: 10px;
 }
-
+.bottoni{
+  justify-content: center;
+}
 .bot-white{
     color: black;
     padding: 15px;
     border-radius: 25px;
     background-color: white;
-    margin: 25px;
     
-
 }
 
 .bot-black{
@@ -94,7 +94,7 @@ a:hover{
   padding: 15px;
   border-radius: 25px;
   background-color: black;
-  margin: 25px;
+  
 
 }
 
