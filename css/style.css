@@ -28,7 +28,7 @@ background-size: cover;
 }
 
 .content-box{
-  max-width: 800px;
+  max-width: 1000px;
   min-height: 300px;
   text-align: left
 
@@ -79,10 +79,6 @@ a:hover{
     padding: 10px;
 }
 
-span{
-  text-align: center;
-}
-
 .bot-white{
     color: black;
     padding: 15px;
@@ -110,7 +106,7 @@ header nav ul{
 
 
 .container{
-  max-width: 900px;
+  max-width:1000px;
   margin: 0 auto;
 }
 
@@ -119,7 +115,6 @@ header nav ul{
 }
 
 /* ********** HEADER ********* */
-
 
 
 .row{
@@ -134,7 +129,7 @@ header .navbar .row{
   background-color:#3160E0;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
 }
 
 nav ul li a{
@@ -156,13 +151,10 @@ main img{
   
 }
 
-.padding-section{
-  margin: 70px;
-}
 
 .grey{
   background-color: #F6F6F6;
-  width: 100%;
+
 }
 
 .celeste{
@@ -195,6 +187,7 @@ main{
   background-color: #23272A;
   color: #8EA2E0;
   font-weight: bold;
+  padding: 30px;
 }
 
 .social{
@@ -205,11 +198,6 @@ main{
   width: calc(100%-280px);
 }
 
-.azzurro{
-  color:8EA2E0;
-  font-size: 1.5rem;
-}
-
 ul{
   list-style: none;
   color: white;
@@ -218,6 +206,7 @@ ul{
 li{
   padding: 10px;
 }
+
 
 /* ********** /MAIN *********** */
 
