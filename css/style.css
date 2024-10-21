@@ -11,6 +11,7 @@ body{
 
 header{
   background-color: #3160E0;
+  margin-bottom: 40px;
 
 }
 
@@ -22,11 +23,14 @@ min-height: 630px;
 background-size: cover;
 }
 
+.jumbo{
+  text-align: center;
+}
+
 .content-box{
   max-width: 800px;
   min-height: 300px;
-  justify-content: center;
-  align-items: center;
+  text-align: left
 
 }
 
@@ -41,10 +45,6 @@ background-size: cover;
     align-items: center;
     background-color: #3160E0;
     height: 90px;
-}
-  
-.debug{
-    border: 1px solid black;
 }
   
 a{
@@ -66,17 +66,21 @@ a{
 
 .white{
     color: white;
+    text-align: center;
+    padding: 10px;
 }
 
-.bottoni{
-  align-items:center
+span{
+  text-align: center;
 }
+
 .bot-white{
     color: black;
     padding: 15px;
     border-radius: 25px;
     background-color: white;
     margin: 25px;
+
 }
 
 .bot-black{
@@ -85,6 +89,7 @@ a{
   border-radius: 25px;
   background-color: black;
   margin: 25px;
+
 }
 
 header nav ul{
@@ -134,10 +139,6 @@ nav ul li a{
 
 /* ********** MAIN ************ */
 
-main section{
-  padding: 150px auto;
-}
-
 main img{
   margin: 30px;
   padding: 20px;
@@ -145,42 +146,27 @@ main img{
   
 }
 
+.padding-section{
+  margin: 70px;
+}
 
+.grey{
+  background-color: #F6F6F6;
+  width: 100%;
+}
 
 main{
   width: 100%;
   margin: 0 auto;
 }
 
-.fucsia{
-  width: 700px;
-  height: 250px;
-  border: 2px solid black;
-  margin: 30px;
+.stars{
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: bold;
+  background-image: url(../img/stars.svg);
+  background-size: cover;
 }
-
-.container-sec{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height: 650px;
-}
-
-.sidebar{
-  width:550px;
-  min-height: 500px;
-}
-
-.pink{
-  width:350px;
-  min-height: 500px;
-}
-
-.lightgray{
-  background-color: lightgray;
-}
-
 .black{
   background-color: black;
   
@@ -205,27 +191,6 @@ main{
   align-items: center;
   width: 100%;
   min-height: 600px;
-}
-
-.red{
-  background-color: lightcoral;
-  min-height: 600px;
-  width: 300px;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  margin: 15px auto;
-}
-
-.forest{
-  background-color:forestgreen;
-  min-height: 600px;
-  width: 150px;
-  display: flex;
-  justify-content: center ;
-  align-self: center;
-  margin: 15px auto;
-}
 
 
 /* ********** /MAIN *********** */
