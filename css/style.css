@@ -30,8 +30,6 @@ background-size: cover;
 
 }
 
-
-
 .header-top{
   height: 95px;
   background-color: #3160E0;
@@ -55,15 +53,15 @@ a{
 }
 
 .title{
-    font-size: 3rem;
+    font-size: 2.2rem;
     margin: 20px;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
 }
 
 .testo{
   margin: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .white{
@@ -108,16 +106,13 @@ header nav ul{
 /* ********** HEADER ********* */
 
 
+
 .row{
   display: flex;
 }
 
-.col {
+.col{
   padding: 0 10px;
-}
-
-header .container{
-  height: 100%;
 }
 
 header .navbar .row{
@@ -139,9 +134,18 @@ nav ul li a{
 
 /* ********** MAIN ************ */
 
+main section{
+  padding: 150px auto;
+}
+
 main img{
   margin: 30px;
+  padding: 20px;
+  max-width: 100%;
+  
 }
+
+
 
 main{
   width: 100%;
