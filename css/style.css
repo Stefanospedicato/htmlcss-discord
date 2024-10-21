@@ -6,36 +6,102 @@
 }
 
 body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: sans-serif
 }
-  
-  header{
+
+header{
+  background-color: #3160E0;
+
+}
+
+.jumbotrom{
+background-image:url(../img/jumbo.png);
+align-items: center;
+justify-content: center;
+min-height: 630px;
+background-size: cover;
+}
+
+.content-box{
+  max-width: 800px;
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.header-top{
+  height: 95px;
+  background-color: #3160E0;
+}
+
+.header-top .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #3160E0;
-    height: 60px;
-  }
+    height: 90px;
+}
   
-  .debug{
+.debug{
     border: 1px solid black;
-  }
+}
   
-  header nav ul{
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 20px;
+    text-align: center;
+}
+
+.testo{
+  margin: 20px;
+  text-align: center;
+}
+
+.white{
+    color: white;
+}
+
+.bottoni{
+  align-items:center
+}
+.bot-white{
+    color: black;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+    margin: 25px;
+}
+
+.bot-black{
+  color: white;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: black;
+  margin: 25px;
+}
+
+header nav ul{
     color: white;
     display: flex;
     list-style: none;
-  }
-
-.navbar{
-  min-width: 900px;
 }
 
 
-
 .container{
-  width: 100%;
+  max-width: 900px;
   margin: 0 auto;
+}
+
+.d-flex{
+  display: flex;
 }
 
 /* ********** HEADER ********* */
@@ -46,7 +112,6 @@ body{
 
 .row{
   display: flex;
-  flex-wrap: wrap;
 }
 
 .col {
@@ -70,6 +135,8 @@ nav ul li a{
   padding: 5px 10px;
 }
 
+
+
 /* ********** /HEADER ********* */
 
 /* ********** MAIN ************ */
@@ -77,15 +144,8 @@ main{
   width: 100%;
   margin: 0 auto;
 }
-.container-first{
-  background-color: darkblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .fucsia{
-  background-color: fuchsia;
   width: 700px;
   height: 250px;
   border: 2px solid black;
@@ -103,11 +163,9 @@ main{
 .sidebar{
   width:550px;
   min-height: 500px;
-  background-color: cornflowerblue;
 }
 
 .pink{
-  background-color: pink;
   width:350px;
   min-height: 500px;
 }
